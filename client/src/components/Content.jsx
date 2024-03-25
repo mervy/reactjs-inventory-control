@@ -13,16 +13,14 @@ export const Content = () => {
             </header>
 
             <main>
-                <div className="row row-cols-1 row-cols-md-3 mb-3 text-center">
-                    <div className="col">
-                        <div className="card mb-4 rounded-3 shadow-sm">
+                <div className="row row-cols-1 row-cols-md-3 mb-3 text-center ">
+                    <div className="col cards-products">
+                        <div className="card mb-4 rounded-3 shadow-sm border border-0">
                             <div className="card-header py-3">
-                                <h4 className="my-0 fw-normal">Free</h4>
+                                <img src="/img/products/fone.jpg" alt=""  className="rounded-2" />
                             </div>
                             <div className="card-body">
-                                <h1 className="card-title pricing-card-title">
-                                    $0<small className="text-body-secondary fw-light">/mo</small>
-                                </h1>
+                                <h1 className="card-title pricing-card-title">$ 200</h1>
                                 <ul className="list-unstyled mt-3 mb-4">
                                     <li>10 users included</li>
                                     <li>2 GB of storage</li>
@@ -30,20 +28,18 @@ export const Content = () => {
                                     <li>Help center access</li>
                                 </ul>
                                 <button type="button" className="w-100 btn btn-lg btn-outline-primary">
-                                    Sign up for free
+                                <a className="navbar-brand" href="https://wa.me/5542999555038" target="_blank">Buy Now</a>
                                 </button>
                             </div>
                         </div>
                     </div>
                     <div className="col">
-                        <div className="card mb-4 rounded-3 shadow-sm">
+                        <div className="card mb-4 rounded-3 shadow-sm  border border-0">
                             <div className="card-header py-3">
-                                <h4 className="my-0 fw-normal">Free</h4>
+                                <img src="/img/products/iphone.jpg" alt=""  className="rounded-2" />
                             </div>
                             <div className="card-body">
-                                <h1 className="card-title pricing-card-title">
-                                    $0<small className="text-body-secondary fw-light">/mo</small>
-                                </h1>
+                                <h1 className="card-title pricing-card-title">$ 1600</h1>
                                 <ul className="list-unstyled mt-3 mb-4">
                                     <li>10 users included</li>
                                     <li>2 GB of storage</li>
@@ -51,20 +47,18 @@ export const Content = () => {
                                     <li>Help center access</li>
                                 </ul>
                                 <button type="button" className="w-100 btn btn-lg btn-outline-primary">
-                                    Sign up for free
+                                <a className="navbar-brand" href="https://wa.me/5542999555038" target="_blank">Buy Now</a>
                                 </button>
                             </div>
                         </div>
                     </div>
                     <div className="col">
-                        <div className="card mb-4 rounded-3 shadow-sm">
+                        <div className="card mb-4 rounded-3 shadow-sm border border-0">
                             <div className="card-header py-3">
-                                <h4 className="my-0 fw-normal">Free</h4>
+                                <img src="/img/products/ps5.jpg" alt=""  className="rounded-2" />
                             </div>
                             <div className="card-body">
-                                <h1 className="card-title pricing-card-title">
-                                    $0<small className="text-body-secondary fw-light">/mo</small>
-                                </h1>
+                                <h1 className="card-title pricing-card-title"> $ 500 </h1>
                                 <ul className="list-unstyled mt-3 mb-4">
                                     <li>10 users included</li>
                                     <li>2 GB of storage</li>
@@ -72,7 +66,7 @@ export const Content = () => {
                                     <li>Help center access</li>
                                 </ul>
                                 <button type="button" className="w-100 btn btn-lg btn-outline-primary">
-                                    Sign up for free
+                                <a className="navbar-brand" href="https://wa.me/5542999555038" target="_blank">Buy Now</a>
                                 </button>
                             </div>
                         </div>
@@ -80,41 +74,37 @@ export const Content = () => {
                     <div className="col">
                         <div className="card mb-4 rounded-3 shadow-sm">
                             <div className="card-header py-3">
-                                <h4 className="my-0 fw-normal">Pro</h4>
+                                <img src="/img/products/s24.jpg" alt=""  className="rounded-2" />
                             </div>
                             <div className="card-body">
-                                <h1 className="card-title pricing-card-title">
-                                    $15<small className="text-body-secondary fw-light">/mo</small>
-                                </h1>
+                                <h1 className="card-title pricing-card-title"> $ 365 </h1>
                                 <ul className="list-unstyled mt-3 mb-4">
-                                    <li>20 users included</li>
-                                    <li>10 GB of storage</li>
-                                    <li>Priority email support</li>
+                                    <li>10 users included</li>
+                                    <li>2 GB of storage</li>
+                                    <li>Email support</li>
                                     <li>Help center access</li>
                                 </ul>
-                                <button type="button" className="w-100 btn btn-lg btn-primary">
-                                    Get started
+                                <button type="button" className="w-100 btn btn-lg btn-outline-primary">
+                                <a className="navbar-brand" href="https://wa.me/5542999555038" target="_blank">Buy Now</a>
                                 </button>
                             </div>
                         </div>
                     </div>
                     <div className="col">
-                        <div className="card mb-4 rounded-3 shadow-sm border-primary">
-                            <div className="card-header py-3 text-bg-primary border-primary">
-                                <h4 className="my-0 fw-normal">Enterprise</h4>
+                        <div className="card mb-4 rounded-3 shadow-sm">
+                            <div className="card-header py-3">
+                                <img src="/img/products/tv70.jpg" alt=""  className="rounded-2" />
                             </div>
                             <div className="card-body">
-                                <h1 className="card-title pricing-card-title">
-                                    $29<small className="text-body-secondary fw-light">/mo</small>
-                                </h1>
+                                <h1 className="card-title pricing-card-title"> $ 490 </h1>
                                 <ul className="list-unstyled mt-3 mb-4">
-                                    <li>30 users included</li>
-                                    <li>15 GB of storage</li>
-                                    <li>Phone and email support</li>
+                                    <li>10 users included</li>
+                                    <li>2 GB of storage</li>
+                                    <li>Email support</li>
                                     <li>Help center access</li>
                                 </ul>
-                                <button type="button" className="w-100 btn btn-lg btn-primary">
-                                    Contact us
+                                <button type="button" className="w-100 btn btn-lg btn-outline-primary">
+                                <a className="navbar-brand" href="https://wa.me/5542999555038" target="_blank">Buy Now</a>
                                 </button>
                             </div>
                         </div>
